@@ -5,6 +5,7 @@ date: 2023-02-20 18:30:00 -0300
 categories: [Blogging, Tutorial]
 tags: [git]
 render_with_liquid: false
+img_path: /assets/img/posts/
 ---
 
 ## O que é o git?
@@ -20,38 +21,34 @@ Além disso, conforme mencionado anteriormente a branch principal do seu reposit
 
 1. Inicialmente é necessário realizar a criação de um repositório git na plataforma de sua preferência (github, gitlab, bitbucket, etc). Caso o repositório já exista isto não será necessário.
     Com o repositório já criado, é preciso fazer um clone deste repositório para o seu ambiente local.
-    ```git
-    ---
-    git clone url
-    ---
+    ```console
+    $ git clone url
     ```
 2. Quando você realiza o clone de um repositório, por padrão você estará utilizando a branch principal, neste caso a main, desta forma, para seguir com o desenvolvimento é recomendado que se crie uma nova branch.
-    ```git
-    ---
-    git checkout -b nome_da_branch
-    ---
+    ```console
+    $ git checkout -b nome_da_branch
     ```
     Com o comando acima você irá criar e começar a utilizar a nova branch.
     Com a branch criada você poderá iniciar o desenvolvimento, é importante que ao longo do desenvolvimento você realize commits a cada marco atingido. Os commits podem ser considerados como a publicação daquela alteração realizada dentro da branch que você está utilizando.
 3. Para realizar um commit através da linha de comando você precisa de três comandos:
-    ```git
-    ---
-    git add .
-    git commit -m "mensagem descrevendo o que está sendo publicado por aquele commit"
-    git push
-    ---
+    ```console
+    $ git add .
+    $ git commit -m "mensagem descrevendo o que está sendo publicado por aquele commit"
+    $ git push
     ```
 4. Após o término do desenvolvimento daquela funcionalidade e a realização de todos os commits você deverá realizar a junção das alterações realizadas na branch de desenvolvimento com a branch principal.
-    ```git
-    ---
-    git merge origin/main –no-ff
-    ---
+    ```console
+    $ git merge origin/main –no-ff
     ```
 
 ## Git e Github são a mesma coisa?
-Embora sejam bem relacionados, o Git e o Github não são a mesma coisa. Git é o sistema de versionamento de código, enquanto o Github é como se fosse uma rede social de desenvolvedores, onde você pode criar seus repositórios (público ou privados) e contribuir com inúmeros projetos open source que estão dentro da plataforma.
-Assim como o Github existem outras plataformas de gerenciamento de repositório baseados no git, como o Gitlab e o Bitbucket, cada um com seus prós e contras.
 
+Embora sejam bem relacionados, o Git e o Github não são a mesma coisa. Git é o sistema de versionamento de código, enquanto o Github é como se fosse uma rede social de desenvolvedores, onde você pode criar seus repositórios (público ou privados) e contribuir com inúmeros projetos open source que estão dentro da plataforma.
+
+![Uma postagem no reddit onde um cara pergunta qual é a diferença entre o git e o github e um outro responde falando que é igual a diferença do porn e do pornhub](difference_between_git_and_github.jpg){: .shadow  w="300"}
+_Qual é a diferença entre o git e o github?_
+
+Assim como o Github existem outras plataformas de gerenciamento de repositório baseados no git, como o Gitlab e o Bitbucket, cada um com seus prós e contras.
 
 ## Conclusão
 Algumas pessoas até tentam realizar o gerenciamento manual de versões e alterações com a utilização de ferramentas como dropbox, pendrives e arquivos zips, mas isso é inviável. Desta forma, os sistemas de gerenciamento de repositórios se destacam devido as facilidades e seguranças que eles podem fornecer ao longo do desenvolvimento de nossos projetos, sejam em projetos pessoais, ou principalmente aqueles que envolvem mais de uma pessoa.
