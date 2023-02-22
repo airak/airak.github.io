@@ -7,12 +7,11 @@ order: 4
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-Meu nome é Matheus, nasci em 6 de maio de 1994, formado em Engenharia da Computação (CEFET-MG) e pós-graduado em Arquitetura de Software Distribuído. No meu tempo livre gosto de sair com os amigos/família, assistir séries/filmes/animes, jogar e ler livros/mangás.
+Meu nome é Matheus, nasci em Contagem/MG e sou um desenvolvedor Full-Stack.
 
-## Trajetória na área de tecnologia
+Atualmente trabalho na [TOTVS](https://www.totvs.com/), sou bacharel em Engenharia de Computação ([CEFET-MG](https://www.cefetmg.br/home/)) e pós graduado em Arquitetura de Software Distribuído ([PUC-MG](https://www.pucminas.br/destaques/Paginas/default.aspx)), já quis ser várias coisas, como soldado, cientista, juiz, arquiteto e até mesmo engenheiro civil, mas sempre me interessei pela área de tecnologia. Em 2012 quando estava fazendo vestibular para entrar no CEFET, o curso mais próximo ao de Engenharia Civil era o de Engenharia de Produção Civil, o qual não me interessava, sendo assim optei por prestar vestibular para Engenharia de Computação. Eu passei, entrei e me apaixonei pelo curso.
 
-Desde que me conheço por gente eu sempre gostei e tive interesse pela área de tecnologia, quando criança gostava de desmontar meus brinquedos para ver como funcionavam e tentar montá-los novamente, e sempre era o responsável por tentar arrumar o computador de cada quando algo saia do comportamento esperado, sendo algumas vezes provocado por mim mesmo, eu confesso, como na vez em que decidi formatar uma partição do HD para ver o que acontecia. Além disso eu tinha alguns parentes que trabalhavam ou mexiam com coisas dessa área e instigavam ainda mais o meu interesse por ela.
+Acho muito massa como a área de tecnologia é multidisciplinar e nos possibilita trabalhar com vários projetos distintos, além de poder conciliar hobbies/interesses em algum projeto massa por ai.
 
-Ao longo dos anos eu quis ser várias coisas, desde soldado, juiz e engenheiro civil. Mas em 2012 quando ia prestar vestibular para o CEFET a área mais próxima disso que tinha nela era a de Engenharia de Produção Civil, sendo assim optei por fazer o vestibular para Engenharia da Computação que era uma área que me interessava mais do que aquela.
+Gosto muito de trabalhar em equipe e compartilhar aquilo que aprendi, espero que com este blog eu consiga fazer um pouco mais disso. ;D
 
-## Por que criei este blog?
