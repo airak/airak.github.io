@@ -1,6 +1,5 @@
 ---
 title: Tutorial - Git
-author: Matheus
 date: 2023-02-20 18:30:00 -0300
 categories: [Blogging, Tutorial]
 tags: [git]
@@ -38,7 +37,7 @@ Além disso, conforme mencionado anteriormente a branch principal do seu reposit
     ```
 4. Após o término do desenvolvimento daquela funcionalidade e a realização de todos os commits você deverá realizar a junção das alterações realizadas na branch de desenvolvimento com a branch principal.
     ```console
-    $ git merge origin/main –no-ff
+    $ git merge origin/main –-no-ff
     ```
 
 ## Git e Github são a mesma coisa?
