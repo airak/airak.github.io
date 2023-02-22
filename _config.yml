@@ -24,7 +24,7 @@ title: Airak                          # the main title
 tagline: Computer Engineer | Full Stack Developer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Um blog para tomar notas e compartilhar conhecimento sobre a área de desenvolvimento de software...
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
@@ -38,7 +38,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Matheus Martins Aguiar
+  name: Matheus Aguiar
   email: hey@matheusag.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
