@@ -7,9 +7,9 @@ render_with_liquid: false
 img_path: /assets/img/posts/angular_01/
 ---
 
-O Angular é um framework de desenvolvimento front-end, usando HTML, CSS e TypeScript, sua primeira versão foi lançada em setembro de 2016. Ele é um framework de código aberto e mantido pelo google, sendo um dos mais populares atualmente.
+O Angular é um framework de desenvolvimento front-end, que utiliza HTML, CSS e TypeScript. Ele é um framework de código aberto e mantido pelo google, sendo um dos mais populares atualmente, sua primeira versão foi lançada em setembro de 2016.
 
-Embora tenham nomes similares, o Angular e o AngularJS são frameworks diferentes, tendo apenas o nome em comum, uma vez que no desenvolvimento do "Angular 2" (conhecido hoje como Angular) foi realizada uma reescrita completa do framework.
+Embora tenham nomes parecidos, Angular e AngularJS são frameworks diferentes, tendo apenas o nome em comum, já que durante o desenvolvimento da segunda versão do framework (conhecido hoje como Angular) foi realizada uma reescrita completa do framework.
 
 O AngularJS foi lançado em 2010, ele utilizava como linguagem padrão o JavaScript e teve o seu [suporte descontinuado em janeiro de 2022](https://blog.angular.io/discontinued-long-term-support-for-angularjs-cc066b82e65a).
 
@@ -17,13 +17,13 @@ Nesta postagem faleremos sobre o Angular, no momento desta publicação a versã
 
 ## Versionamento
 
-O Angular utiliza o versionamento SEMVER (Semantic Versioning), sendo uma sequência de três numeros separados por pontos.
+O padrão de versionamento utilizado por ele é o SEMVER (Semantic Versioning), que é constituido por uma sequência de três números separados por pontos.
 
 ![Imagem ilustrativa sobre o versionamento do semver, explicando o que cada campo significa](semver02.png){: .shadow  w="600"}
 _Padrão de versionamento do SEMVER_
 
 * Major - É incrementado quando existem mudanças significativas, com potêncial de "quebrar" códigos que utilizam versões anteriores, como por ex. o lançamento de uma nova versão de determinada biblioteca, onde o nome ou assinatura de algumas de suas funções foi alterado. Sendo assim, para atualizar para uma nova major release é esperado que o desenvolvedor precise rodar scripts de atualização, refatorar código, fazer testes adicionais e estudar as novas APIs.
-* Minor - Disponibilização de melhorias menores que tem não tem potêncial para quebrar o código de quem já está utilizando aquela versão Major, é esperado que o desenvolvedor não precise de assistência para efetuar a atualização, mas você pode opcionalmente modificar a sua aplicação para utilizar os novos recursos que foram disponibilizados.
+* Minor - Disponibilização de melhorias menores que não tem potencial para quebrar o código de quem já está utilizando aquela versão Major. É esperado que o desenvolvedor não precise de assistência para efetuar a atualização, mas você pode opcionalmente modificar a sua aplicação para utilizar os novos recursos que foram disponibilizados.
 * Patch - Correções de bugs durante a release, assim como a Minor é esperado que o desenvolvedor não precise de assistência para a realização da atualização do patch.
 
 De acordo com a documentação oficial a [frequência esperada da release](https://angular.io/guide/releases#release-frequency) é de:
@@ -38,7 +38,7 @@ Existem vários elementos básicos (building blocks) que podem ser bastante úte
 
 ### Módulos
 
-Os módulos são um conjunto de componentes, serviços e outros elementos que tenham alguma diretiva em comum. Ele é denotado pelo decorator @ndModule
+Os módulos são um conjunto de componentes, serviços e outros elementos que tenham alguma diretiva em comum. Ele é denotado pelo decorator `@ndModule`
 
 Conforme o projeto for crescendo o módulo raiz pode ficar grande demais, desta forma é interessante a utilização de módulos locais/de funcionalidades (com funções específicas), estes módulos são conhecimentos como feature-modules.
 
@@ -52,12 +52,12 @@ ng g module [nome_modulo] --routing
 
 ### Componentes
 
-O componente é um bloco da aplicação Angular, contendo um arquivo de template (HTML), controle (ts) e o arquivos de estilização (css/scss). Ele é denotado pelo decorator @Component
+O componente é um bloco da aplicação Angular, contendo um arquivo de template (HTML), controle (ts) e o arquivo de estilização (css/scss). Ele é denotado pelo decorator `@Component`
 
 Dentro do decorator Component, são listados:
-* selector: O seletor que é utilizado para "invocação" do componente dentro do HTML;
-* templateUrl: O HTML utilizado para template do componente;
-* styleUrls: o arquivo de estilização do componente.
+* `selector`: O seletor é utilizado para "invocação" do componente dentro do HTML;
+* `templateUrl`: O HTML utilizado para template do componente;
+* `styleUrls`: O arquivo de estilização do componente.
 
 Comando para criação de um componente:
 
@@ -69,7 +69,7 @@ ng g component [nome_componente]
 
 Os serviços normalmente são utilizados para conter o código responsável por um determinado propósito, como por exemplo a parte de consumo e envio de informações para as API (back-end), atualização do token de acesso, entre outras.
 
-O decorator Injectable indica que a classe pode ser fornecida e injetada em outra classe.
+O decorator `Injectable` indica que a classe pode ser fornecida e injetada em outra classe.
 
 
 Comando para criação de um serviço:
@@ -84,14 +84,14 @@ São uma forma de associar informações que estão no componente ao template e 
 
 Existem várias formas de se fazer isso, como:
 
-* Componente -> Template
+* Do Componente para o Template
     * Interpolação: `{{ valor }}`
     * Property Binding: `[propriedade]="valor"`
-* Template -> Componente
+* Do Template para o Componente
     * Escutar eventos do template: `(evento)="handler"`
     * Two-way data bind (usado em formulários para manter os dois atualizados ao mesmo tempo): `[(ngModel)]="propriedade"`
 
-[Na documentação oficial  do angular são encontradas e descritas outras formas de se fazer isso](https://angular.io/guide/binding-syntax#binding-types-and-targets).
+Para encontrar outras formas de se utilizar Data Binding [clique aqui](https://angular.io/guide/binding-syntax#binding-types-and-targets).
 
 ## Estrutura de diretórios
 
@@ -110,7 +110,7 @@ _Estrutura inicial de um projeto Angular_
 * package.json - Contém os nomes e as versões dos pacotes instalados.
 * angular.json - Contém as informações do projeto e build de produção, como nome do projeto, config de onde encontrar os arquivos fontes, config de testes, etc.
 
-Na [documentação oficial do Angular](https://angular.io/guide/file-structure#workspace-configuration-files) você pode encontrar mais detalhes sobre os arquivos e diretórios mencionados acima e muitos outros.
+Para encontrar mais detalhes sobre os arquivos e diretórios mencionados acima e muitos outros [clique aqui](https://angular.io/guide/file-structure#workspace-configuration-files).
 
 ## Mão na massa
 

@@ -1,18 +1,30 @@
 ---
-title: Tutorial - Git
+title: Git para iniciantes
 date: 2023-02-20 18:30:00 -0300
-categories: [Blogging, Tutorial]
+categories: [Conceitos, Sistemas de versionamento de código]
 tags: [git]
 render_with_liquid: false
 img_path: /assets/img/posts/
 ---
 
-## O que é o git?
 Git provavelmente é o sistema de versionamento de código distribuído mais popular no mundo, ele foi desenvolvido em 2005 por ninguém mais e ninguém menos que o grande mestre jedi Linux Torvalds quando o serviço que ele utilizava para isso se tornou pago.
-Como um bom sistema de versionamento de código, o git permite que várias pessoas trabalhem no mesmo projeto, editando simultaneamente os mesmos arquivos,  sem o risco de que uma sobrescreva o que a outra fez. Além de permitir que as alterações realizadas possam ser desfeitas.
+Como um bom sistema de versionamento de código, o git permite que várias pessoas trabalhem no mesmo projeto, editando simultaneamente os mesmos arquivos, sem o risco de que uma sobrescreva o que a outra fez. Além de permitir que as alterações realizadas possam ser desfeitas.
 
 ## Como o git funciona?
 O git funciona através da arquitetura de branches, que são ramificações do código principal. Nestas branches o desenvolvedor pode realizar alterações sem se preocupar em gerar impactos no código principal durante o processo de desenvolvimento. Após o término do desenvolvimento ele realiza um merge da branch criada com a branch principal (normalmente chamada de main ou master).
+
+## Instalação e configuração do Git
+
+Para instalar o Git no seu computador basta acessar o [site oficial](https://git-scm.com/download/win) e realizar o download do instalador.
+
+Para verificar se o git está instalado, execute o comando `git --version` no seu terminal, se retornar a versão atual do git, ele foi instalado com sucesso.
+
+Após ter instalado o git com sucesso, é necessário configurá-lo, para isso utilize os seguintes comandos no seu terminal:
+
+```console
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.br
+```
 
 ## Exemplo de utilização
 Hoje em dia é possível utilizar o git de várias formas diferentes, seja através do uso de linhas de comando, através de alguns softwares como sourcetree, github desktop e até mesmo através de algumas IDEs que contam com integração com o git, como por ex. o Visual Studio.
