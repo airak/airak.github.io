@@ -1,6 +1,6 @@
 ---
 title: Consultas recursivas em PostgreSQL
-date: 2023-03-09 18:30:00 -0300
+date: 2023-03-11 16:20:00 -0300
 categories: [Tópicos avançados, Banco de dados]
 tags: [banco de dados, postgreSQL, recursividade]
 render_with_liquid: false
