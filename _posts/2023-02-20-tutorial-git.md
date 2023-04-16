@@ -7,7 +7,7 @@ render_with_liquid: false
 img_path: /assets/img/posts/
 ---
 
-Git provavelmente é o sistema de versionamento de código distribuído mais popular no mundo, ele foi desenvolvido em 2005 por ninguém mais e ninguém menos que o grande mestre jedi Linux Torvalds quando o serviço que ele utilizava para isso se tornou pago.
+Git provavelmente é o sistema de versionamento de código distribuído mais popular no mundo, ele foi desenvolvido em 2005 por ninguém mais e ninguém menos que o grande mestre jedi Linus Torvalds quando o serviço que ele utilizava para isso se tornou pago.
 Como um bom sistema de versionamento de código, o git permite que várias pessoas trabalhem no mesmo projeto, editando simultaneamente os mesmos arquivos, sem o risco de que uma sobrescreva o que a outra fez. Além de permitir que as alterações realizadas possam ser desfeitas.
 
 ## Como o git funciona?
