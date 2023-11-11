@@ -4,7 +4,10 @@ date: 2023-02-20 18:30:00 -0300
 categories: [Conceitos, Sistemas de versionamento de código]
 tags: [git]
 render_with_liquid: false
-img_path: /assets/img/posts/
+img_path: /assets/img/posts/01_git_for_beginners/
+image:
+  path: header_git.png
+  alt: Um explorador apontando para um quadro com comandos básicos de git.
 ---
 
 Git provavelmente é o sistema de versionamento de código distribuído mais popular no mundo, ele foi desenvolvido em 2005 por ninguém mais e ninguém menos que o grande mestre jedi Linus Torvalds quando o serviço que ele utilizava para isso se tornou pago.

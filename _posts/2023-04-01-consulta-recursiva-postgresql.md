@@ -5,6 +5,9 @@ categories: [Tópicos avançados, Banco de dados]
 tags: [banco de dados, postgreSQL, recursividade]
 render_with_liquid: false
 img_path: /assets/img/posts/03_postgresql_q_rec/
+image:
+  path: postgresql_header_pt.png
+  alt: Um elefante com capacete de obra.
 ---
 
 Imagine que você possua uma tabela que possua um relacionamento (FK) consigo mesma e precise extrair algum relatório disso. Existem várias formas de se fazer isso, a maneira convencional seria realizando várias consultas ao banco de dados pegando em cada uma dessas requisições a informação de um registro.

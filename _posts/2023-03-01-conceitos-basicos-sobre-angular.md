@@ -4,7 +4,10 @@ date: 2023-03-06 19:48:00 -0300
 categories: [Conceitos, Front-end]
 tags: [angular, typescript, front-end, web]
 render_with_liquid: false
-img_path: /assets/img/posts/angular_01/
+img_path: /assets/img/posts/02_angular/
+image:
+  path: angular_header.png
+  alt: Logo do angular com fundo espacial.
 ---
 
 O Angular é um framework de desenvolvimento front-end, que utiliza HTML, CSS e TypeScript. Ele é um framework de código aberto e mantido pelo google, sendo um dos mais populares atualmente, sua primeira versão foi lançada em setembro de 2016.
