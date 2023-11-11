@@ -5,6 +5,9 @@ categories: [Conceitos, Boas práticas]
 tags: [clean code, uncle bob, boas práticas]
 render_with_liquid: false
 img_path: /assets/img/posts/clean_code/
+image:
+  path: bob_5.jpeg
+  alt: 
 ---
 
 > Tornar seu código legível é tão importante quanto torná-lo executável.
