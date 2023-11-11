@@ -147,7 +147,6 @@ Para encontrar mais detalhes sobre os arquivos e diretórios mencionados acima e
     ![Captura de tela do projeto sendo acessado dentro do navegador Chrome](meu_primeiro_projeto.png){: .shadow  w="800"}
 _Visualizaçao do "Meu primeiro projeto" no navegador_
 
-
 ## Referências
 
 1. [Treinamento de Angular da Loiane](https://loiane.training/continuar-curso/angular)
