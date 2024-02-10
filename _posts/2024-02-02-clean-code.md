@@ -28,7 +28,6 @@ Um código limpo pode agregar uma série de vantagens ao processo de desenvolvim
 7. Redução de Custos a Longo Prazo:
 
 
-
 #A importância do código limpo no desenvolvimento de software não pode ser subestimada, pois afeta diversos aspectos do ciclo de vida do software e contribui para a qualidade, eficiência e sustentabilidade de um projeto. Aqui estão algumas das razões pelas quais o código limpo é crucial:
 
 ## Características e princípios
@@ -37,30 +36,44 @@ Um código limpo pode agregar uma série de vantagens ao processo de desenvolvim
 
 ### 1. Nomes significativos
 
+O nome de uma variável, função ou classe deve responder a todas as grandes questões. Ele deve lhe dizer porque existe, o que faz e como é usado. Se um nome requer um comentários, então ele não revela seu propósito.
+
 ### 2. Funções
+
+Implemente funções pequenas, onde cada uma possua responsabilidade única, funções grandes e complexas possuem baixa manutenabilidade e legibilidade.
+Quando uma função parece precisar de mais de dois ou três parâmetros, é provável que alguns deles podem ser colocados em uma classe própria.
 
 ### 3. Comentários
 
-### 4. Formatação
+Códigos mudam e evoluem, enquanto os comentários nem sempre.
 
-### Objetos e Estrutura de Dados
+> O uso adequado de comentários é compensar nosso fracasso em nos expressar no código. Devemos usá-los apenas porque nem sempre encontramos uma forma de nos expressar sem eles, mas seu uso não é motivo para comemoração.
 
-### 5. Tratamento de Erro
+O seu código deve ser auto-explicativo, desta forma, utilize comentários apenas para explicar o porquê de algumas decisões ou para documentar partes do código que sejam menos óbvias.
 
-### Limites
+### 4. Não seja redundante
 
-### 6. Teste de Unidade
+ Não repita o mesmo código em vários lugares. Em vez disso, crie funções ou classes reutilizáveis para evitar duplicação.
 
-### Classes
+### 5. Regra do escoteiro
 
-### Sistemas
+Deixe o código sempre mais limpo do que você o encontrou.
 
-### Emergência
+### 6. Testes limpos
 
-### Concorrência
+Escreva testes unitários para garantir que seu código funcione conforme o esperado e possa ser facilmente validado durante o desenvolvimento e manutenção, afinal um código só é considerado limpo após ser validado através de testes.
 
-### Refinamento Sucessivo
+Testes limpos seguem cinco regras que formam o acrônimo em inglês F.I.R.S.T.:
 
-### Odores e Heurísticas
+1. Rapidez (Fast) - Os testes devem ser rápidos, possibilitando a sua execução sempre que possível.
+2. Independência (Independent) - Você deve ser capaz de executar os testes de forma independente e na ordem que desejar. Quando eles dependem uns dos outros, se o primeiro falhar irá causar um efeito dominó de falhas, dividultando a análise dos problemas.
+3. Repetitividade (Repeatable) - Os testes devem ser possíveis de serem executados em qualquer ambiente.
+4. Autovalidação (Self-Validating) - A saída dos testes deve ser true ou false para que a falha não seja subjetiva.
+5. Pontualidade (Timely) - Os testes precisam ser escritos em tempo hábil e de preferência antes do código de produção.
+
+
 
 ## Referências
+
+- Livro Clean Code
+- [Clean Code - Guia e Exemplos](https://balta.io/blog/clean-code)
