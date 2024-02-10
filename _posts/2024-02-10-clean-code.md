@@ -1,12 +1,12 @@
 ---
 title: Clean Code - Importância e princípios base
-date: 2024-02-02 12:00:00 -0300
+date: 2024-02-10 12:00:00 -0300
 categories: [Conceitos, Boas práticas]
 tags: [clean code, uncle bob, boas práticas]
 render_with_liquid: false
 img_path: /assets/img/posts/clean_code/
 image:
-  path: bob_5.jpeg
+  path: clean_code_header.png
   alt:
 ---
 
