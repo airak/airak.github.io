@@ -1,5 +1,5 @@
 ---
-title: Código Limpo (Clean Code)
+title: Clean Code - Importância e princípios base
 date: 2024-02-02 12:00:00 -0300
 categories: [Conceitos, Boas práticas]
 tags: [clean code, uncle bob, boas práticas]
@@ -7,32 +7,14 @@ render_with_liquid: false
 img_path: /assets/img/posts/clean_code/
 image:
   path: bob_5.jpeg
-  alt: 
+  alt:
 ---
 
 > Tornar seu código legível é tão importante quanto torná-lo executável.
 
-<!-- ![Imagem de uma pessoa limpando uma tela com códigos utilizando produtos de limpeza](clean_code.png){: .shadow  w="600"} -->
-
-Código limpo se refere a um estilo de escrita de código de programação que enfatiza a legibilidade, manutenibilidade e clareza do código-fonte. Um código limpo é fácil de entender, seguir e modificar, o que é fundamental para o desenvolvimento de software eficiente e sustentável. O conceito de código limpo foi popularizado por Robert C. Martin em seu livro "Clean Code: A Handbook of Agile Software Craftsmanship".
-
-## Importância do código limpo
-
-Um código limpo pode agregar uma série de vantagens ao processo de desenvolvimento de software, incluindo:
-
-1. Legibilidade e Compreensão
-2. Facilidade de manutenção
-3. Redução de erros
-5. Reutilização
-6. Testabilidade
-7. Redução de Custos a Longo Prazo:
-
-
-#A importância do código limpo no desenvolvimento de software não pode ser subestimada, pois afeta diversos aspectos do ciclo de vida do software e contribui para a qualidade, eficiência e sustentabilidade de um projeto. Aqui estão algumas das razões pelas quais o código limpo é crucial:
+Código limpo se refere a um estilo de escrita de código de programação que enfatiza a legibilidade, manutenibilidade e clareza do código-fonte. Um código limpo é fácil de entender, seguir e modificar, o que é fundamental para o desenvolvimento de software eficiente e sustentável. O conceito de código limpo foi popularizado por Robert C. Martin em seu livro "Clean Code: A Handbook of Agile Software Craftsmanship" no qual ele aborda os princípios abaixo.
 
 ## Características e princípios
-
-
 
 ### 1. Nomes significativos
 
@@ -71,7 +53,9 @@ Testes limpos seguem cinco regras que formam o acrônimo em inglês F.I.R.S.T.:
 4. Autovalidação (Self-Validating) - A saída dos testes deve ser true ou false para que a falha não seja subjetiva.
 5. Pontualidade (Timely) - Os testes precisam ser escritos em tempo hábil e de preferência antes do código de produção.
 
+## Conclusão
 
+A valorização de um código limpo é essencial, pois oferece uma série de vantagens para o desenvolvimento de software. Desde a melhoria da legibilidade e compreensão até a redução de custos a longo prazo, suas vantagens abrangem áreas cruciais como manutenção, qualidade e eficiência do projeto. Assim, investir no desenvolvimento e manutenção de código limpo não apenas eleva a qualidade do software, mas também contribui para um ciclo de vida mais sustentável e eficaz do projeto de software.
 
 ## Referências
 
