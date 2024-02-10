@@ -1,6 +1,6 @@
 ---
 title: Código Limpo (Clean Code)
-date: 2023-11-01 12:00:00 -0300
+date: 2024-02-02 12:00:00 -0300
 categories: [Conceitos, Boas práticas]
 tags: [clean code, uncle bob, boas práticas]
 render_with_liquid: false
@@ -12,7 +12,7 @@ image:
 
 > Tornar seu código legível é tão importante quanto torná-lo executável.
 
-![Imagem de uma pessoa limpando uma tela com códigos utilizando produtos de limpeza](clean_code.png){: .shadow  w="600"}
+<!-- ![Imagem de uma pessoa limpando uma tela com códigos utilizando produtos de limpeza](clean_code.png){: .shadow  w="600"} -->
 
 Código limpo se refere a um estilo de escrita de código de programação que enfatiza a legibilidade, manutenibilidade e clareza do código-fonte. Um código limpo é fácil de entender, seguir e modificar, o que é fundamental para o desenvolvimento de software eficiente e sustentável. O conceito de código limpo foi popularizado por Robert C. Martin em seu livro "Clean Code: A Handbook of Agile Software Craftsmanship".
 
@@ -39,17 +39,17 @@ Um código limpo pode agregar uma série de vantagens ao processo de desenvolvim
 
 ### 2. Funções
 
-### Comentários
+### 3. Comentários
 
-### Formatação
+### 4. Formatação
 
 ### Objetos e Estrutura de Dados
 
-### Tratamento de Erro
+### 5. Tratamento de Erro
 
 ### Limites
 
-### Teste de Unidade
+### 6. Teste de Unidade
 
 ### Classes
 
